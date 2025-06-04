@@ -1,0 +1,11 @@
+[package]
+name = "binomtest"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+statrs = "0.16"
+arbitrary = { version = "1", optional = true, features = ["derive"] }
+
+[dev-dependencies]
+pyo3={ version = "0.19", features = ["auto-initialize"] }
